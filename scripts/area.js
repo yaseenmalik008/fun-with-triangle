@@ -9,7 +9,7 @@ return area
 function theArea(){
     const area = calculateTheArea(Number(numberInput[0].value), Number(numberInput[1].value))
 const output = 0.5 * area;
-    outputDiv.innerText = `the area is equal to ${output}`
+    outputDiv.innerText = `The Area Is Equal to ${output}`
 }
 
 checkBtn.addEventListener("click", theArea)

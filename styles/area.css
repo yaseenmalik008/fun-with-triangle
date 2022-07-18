@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(228, 199, 120);
+}
+.area-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    max-width:40vw ;
+    margin: auto;
+    background-color: white;
+    margin-top: 2vw;
+
+}
+.area-container h1{
+    font-size: 3vw;
+    text-align: center;
+    padding: 2vw;
+}
+.area-container h2{
+    font-size: 2vw;
+    padding-bottom: 2vw;
+}
+.area-container label{
+    font-size: 2vw;
+    text-align: center;
+    padding-top: 2vw;
+
+}
+.area-container input{
+    width: 20vw;
+    min-height: 3vw;
+    font-size: 2vw;
+
+}
+.area-container button{
+margin: 2vw 0;
+padding: 1vw;
+min-width: 9vw;
+font-size: 2vw;
+border-radius: 2vh;
+   box-shadow: 1vh 1vh 0vh black;;;
+}
+.area-container button:hover{
+    background-color: blueviolet;
+    color: white;
+}
+#output-div{
+    font-size: 3vw;
+}

@@ -1,0 +1,46 @@
+body{
+    background-color:rgb(193, 157, 227);
+}
+.hypo-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    background-color: white;
+    width: 40vw;
+    margin: auto;
+    margin-top: 2vw;
+}
+.hypo-container h1{
+padding-top: 3vw;
+font-size: 3vw;
+font-weight: bold;
+}
+.hypo-container label{
+font-size: 3vw;
+padding-top: 3vw;
+
+}
+.hypo-container input{
+    width: 30vw;
+    height: 3vw;
+    font-size: 2vw;
+}
+.hypo-container button{
+    margin: 2vw 0 3vw 0;
+    min-width: 18vw;
+    height: 4vw;
+    font-size: 2vw;
+    border-radius: 2vh;
+    box-shadow: 1vh 1vh 0vh black;;
+}
+.hypo-container button:hover{
+    background-color: blueviolet;
+color: white;
+}
+#output-div{
+    font-size: 3vw;
+    padding: 2vw 0;
+    text-align: center;
+}

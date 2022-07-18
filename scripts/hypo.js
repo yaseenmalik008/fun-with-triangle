@@ -34,3 +34,4 @@ function calculateHypo(){
 
 
 hypoBtn.addEventListener("click", calculateHypo)
+

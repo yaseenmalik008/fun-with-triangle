@@ -25,7 +25,7 @@ function calculateScore() {
     }
     index = index + 1;
   }
-  outputDiv.innerText = `your score is ${score}`;
+  outputDiv.innerText = `Your Score Is ${score}`;
 }
 
 
