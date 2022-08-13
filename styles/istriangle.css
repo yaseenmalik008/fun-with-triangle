@@ -43,6 +43,8 @@ body {
   flex-direction: column;
   max-width: 30vw;
   color: black;
+  border: 1px solid black;
+  background-color: aliceblue;
 }
 .main-content h1 {
   text-align: center;
